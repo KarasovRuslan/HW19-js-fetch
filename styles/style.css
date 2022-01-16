@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#Lists {
+    margin-top: 20px;
+    width: 50%;
+    border-style: double;
+    border-color: red;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+#Images {
+    margin-top: 20px;
+    width: 50%;
+    border-style: double;
+    border-color: greenyellow;
+    border-radius: 25px;
+    background-color: rgb(73, 81, 189);
+    padding: 10px;
+}
+
+img {
+    width: 20%;
+}
+
+a {
+    cursor: pointer;
+    width: fit-content;
+}
+
+a:hover {
+    color: red;
+}
